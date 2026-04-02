@@ -1,0 +1,4142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP por Informe de Escaneo Checkmarx</title>
+<link
+	href="2026-04-02-ZAP-Report-/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2026-04-02-ZAP-Report-/themes/original/main.css" rel="stylesheet">
+<link
+	href="2026-04-02-ZAP-Report-/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP por Informe de Escaneo Checkmarx</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2026-04-02-ZAP-Report-/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on jue 2 abr 2026, at 18:41:25</span>
+		</p>
+		<p>ZAP Versión: 2.17.0</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About This Report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report Parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert Counts by Risk and Confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert Counts by Site and Risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert Counts by Alert Type</a></li>
+							<li><a
+								href="#insights">Insights</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Alta</span> <span>(2)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Media</span> <span>(2)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-0-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Baja</span> <span>(2)</span></a></li>
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert Types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About This Report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report Parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">https://blazemeter.trackinglibrary.prodperfect.com</span></li>
+						<li><span class="site">https://android.clients.google.com</span></li>
+						<li><span class="site">https://blazedemo.com</span></li>
+						<li><span class="site">https://accounts.google.com</span></li>
+						<li><span class="site">https://www.google.com</span></li>
+						<li><span class="site">http://clients2.google.com</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">Alto</span>, <span class="risk-level">Medio</span>, <span class="risk-level">Bajo</span>, <span class="risk-level">Informativo</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">Confirmado por Usuario</span>, <span class="confidence-level">Alta</span>, <span class="confidence-level">Media</span>, <span class="confidence-level">Baja</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">Confirmado por Usuario</span>, <span class="confidence-level">Alta</span>, <span class="confidence-level">Media</span>, <span class="confidence-level">Baja</span>, <span class="confidence-level">Falso positivo</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert Counts by Risk and Confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">Confirmado por Usuario</th>
+							<th scope="col">Alta</th>
+							<th scope="col">Media</th>
+							<th scope="col">Baja</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">Alto</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0,0 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medio</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0,0 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Bajo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28,6 %)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14,3 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(42,9 %)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informativo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28,6 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28,6 %)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(57,1 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28,6 %)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(42,9 %)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28,6 %)</span></td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert Counts by Site and Risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>Alto</span><br>  <span
+									class="additional-info-percentages">(= Alto)</span>  
+							</th>
+							<th scope="col">
+								<span>Medio</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medio)</span> 
+							</th>
+							<th scope="col">
+								<span>Bajo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Bajo)</span> 
+							</th>
+							<th scope="col">
+								<span>Informativo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informativo)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="2">Site</th>
+							<th scope="row">https://blazemeter.trackinglibrary.prodperfect.com</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(1)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(2)</span></td>
+							
+						</tr>
+						<tr>
+							
+							<th scope="row">https://blazedemo.com</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(2)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(5)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert Counts by Alert Type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">El servidor filtra información de versión a través del campo &quot;Server&quot; del encabezado de respuesta HTTP</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14,3 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Falta encabezado X-Content-Type-Options</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14,3 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Strict-Transport-Security Header No Establecido</a></th>
+							<td class="risk-level">Bajo</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28,6 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Atributo de elemento HTML controlable por el usuario (XSS potencial)</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(42,9 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Divulgación de información - Comentarios sospechosos</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14,3 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">Recuperado de la Caché</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14,3 %)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Reexaminar las Directivas de Control de Caché</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14,3 %)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>7</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+			
+			<section
+				id="insights">
+				<h3 class="left-header">Insights</h3>
+				<table class="insights-table">
+						<caption>
+						<p>This table shows information that is likely to be very relevant to you, but which is not related to vulnerabilities, or potentially even related to the application in question.</p>
+					</caption>
+					<thead>
+					<tr>
+						<th scope="col">Level</th>
+						<th scope="col">Razón</th>
+						<th scope="col">Site</th>
+						<th scope="col">Descripción</th>
+						<th scope="col">Statistic</th>
+					</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+						<td class="risk-1">
+							<div>Bajo</div>
+						</td>
+						<td>
+							<div>Advertencia</div>
+						</td>
+						<td>
+							<div></div>
+						</td>
+						<td>
+							<div>ZAP warnings logged - see the zap.log file for details</div>
+						</td>
+						<td align="center">
+							<div>56   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 3xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/html</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com:8080</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/plain</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com:8080</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://blazedemo.com:8080</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://clients2.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://clients2.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/json</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://clients2.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://clients2.google.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>http://clients2.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>33 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://accounts.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://accounts.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/binary</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://accounts.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method POST</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://accounts.google.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://accounts.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>50 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://android.clients.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://android.clients.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/x-protobuffer</div>
+						</td>
+						<td align="center">
+							<div>33 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://android.clients.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/plain</div>
+						</td>
+						<td align="center">
+							<div>66 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://android.clients.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method POST</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://android.clients.google.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>3   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://android.clients.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/javascript</div>
+						</td>
+						<td align="center">
+							<div>18 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type image/png</div>
+						</td>
+						<td align="center">
+							<div>9 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type image/vnd.microsoft.icon</div>
+						</td>
+						<td align="center">
+							<div>9 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/css</div>
+						</td>
+						<td align="center">
+							<div>18 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type text/html</div>
+						</td>
+						<td align="center">
+							<div>45 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>72 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method POST</div>
+						</td>
+						<td align="center">
+							<div>27 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>11   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazedemo.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazemeter.trackinglibrary.prodperfect.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazemeter.trackinglibrary.prodperfect.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/javascript</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazemeter.trackinglibrary.prodperfect.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazemeter.trackinglibrary.prodperfect.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://blazemeter.trackinglibrary.prodperfect.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>9 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://www.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of responses with status code 2xx</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://www.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with content type application/x-protobuffer</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://www.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of endpoints with method GET</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://www.google.com</div>
+						</td>
+						<td>
+							<div>Count of total endpoints</div>
+						</td>
+						<td align="center">
+							<div>1   </div>
+						</td>
+						</tr>
+					
+						<tr>
+						<td class="risk-0">
+							<div>Información</div>
+						</td>
+						<td>
+							<div>Informativo</div>
+						</td>
+						<td>
+							<div>https://www.google.com</div>
+						</td>
+						<td>
+							<div>Percentage of slow responses</div>
+						</td>
+						<td align="center">
+							<div>100 %</div>
+						</td>
+						</tr>
+					
+					</tbody>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				 
+				
+				
+				<li id="alerts--risk-1-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Alta</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://blazemeter.trackinglibrary.prodperfect.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">El servidor filtra información de versión a través del campo &quot;Server&quot; del encabezado de respuesta HTTP</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server">WSTG-v42-INFO-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>El servidor web/aplicación está filtrando información de versión a través de la cabecera de respuesta HTTP &quot;Server&quot;. El acceso a dicha información puede facilitar a los atacantes la identificación de otras vulnerabilidades a las que está sujeto su servidor web/aplicación.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (604 bytes)</summary>
+				
+				<pre><code>GET https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js HTTP/1.1
+host: blazemeter.trackinglibrary.prodperfect.com
+Connection: keep-alive
+sec-ch-ua-platform: &quot;Linux&quot;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: active
+Referer: https://blazedemo.com/
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (527 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: application/javascript
+Content-Length: 1208
+Connection: keep-alive
+Date: Thu, 02 Apr 2026 20:59:19 GMT
+Last-Modified: Tue, 17 Sep 2019 18:12:35 GMT
+ETag: &quot;623a77c5f01f0e9fbf2316e8e42c62c4&quot;
+x-amz-version-id: 8G_0GZpkqTemBaR96zQCPhVSeo4XD1Mm
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 92b04fa1f7fc8cf7b88f8e05368a8846.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EZE50-P7
+X-Amz-Cf-Id: TCgOuN0idHIFafH7s3HQjo7OEnjaGN6OSGhQl6XYOWdrWk8knEFsDA==
+Age: 2458
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1208 bytes)</summary>
+				
+				<pre><code>/*! P2_KEEN_NO_OP_VERSION: 2.0.16 */
+var Keen=function(e){var n={};function r(t){if(n[t])return n[t].exports;var o=n[t]={i:t,l:!1,exports:{}};return e[t].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=n,r.d=function(e,n,t){r.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:t})},r.r=function(e){&quot;undefined&quot;!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:&quot;Module&quot;}),Object.defineProperty(e,&quot;__esModule&quot;,{value:!0})},r.t=function(e,n){if(1&amp;n&amp;&amp;(e=r(e)),8&amp;n)return e;if(4&amp;n&amp;&amp;&quot;object&quot;==typeof e&amp;&amp;e&amp;&amp;e.__esModule)return e;var t=Object.create(null);if(r.r(t),Object.defineProperty(t,&quot;default&quot;,{enumerable:!0,value:e}),2&amp;n&amp;&amp;&quot;string&quot;!=typeof e)for(var o in e)r.d(t,o,function(n){return e[n]}.bind(null,o));return t},r.n=function(e){var n=e&amp;&amp;e.__esModule?function(){return e.default}:function(){return e};return r.d(n,&quot;a&quot;,n),n},r.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},r.p=&quot;&quot;,r(r.s=0)}([function(e,n,r){&quot;use strict&quot;;Object.defineProperty(n,&quot;__esModule&quot;,{value:!0}),n.default=n.KeenTracking=n.Keen=void 0;var t={ready:function(){window.p2_no_op_mode_enabled=!0}},o=t;n.Keen=o;var u=o;n.KeenTracking=u;var i=o;n.default=i}]).default;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>AmazonS3</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicaciones, balanceador de carga, etc. está configurado para suprimir la cabecera &quot;Server&quot; o proporcionar detalles genéricos.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://blazedemo.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Strict-Transport-Security Header No Establecido</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://blazedemo.com/index.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/319.html">CWE-319</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>HTTP Strict Transport Security (HSTS) es un mecanismo de política de seguridad web mediante el cual un servidor web declara que los agentes de usuario conformes (como un navegador web) deben interactuar con él utilizando únicamente conexiones HTTPS seguras (es decir, HTTP superpuesto a TLS/SSL). HSTS es un protocolo de seguimiento de estándares del IETF y se especifica en RFC 6797.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (647 bytes)</summary>
+				
+				<pre><code>GET https://blazedemo.com/index.php HTTP/1.1
+host: blazedemo.com
+Connection: keep-alive
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Linux&quot;
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (283 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+x-cloud-trace-context: b6818a7700f35ece056978fd7476a96c
+date: Thu, 02 Apr 2026 21:40:15 GMT
+server: Google Frontend
+Content-Length: 4474
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4474 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; BlazeDemo&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h1&gt;Welcome to the Simple Travel Agency!&lt;/h1&gt;
+            &lt;p&gt;The is a sample site you can test with BlazeMeter! &lt;/p&gt;
+            &lt;p&gt;Check out our &lt;a href=&quot;vacation.html&quot;&gt;destination of the week! The Beach!&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;Choose your departure city:&lt;/h2&gt;
+    &lt;form action=&quot;reserve.php&quot; method=&quot;post&quot;&gt;
+        &lt;select name=&quot;fromPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+            &lt;option value=&quot;Philadelphia&quot;&gt;Philadelphia&lt;/option&gt;
+            &lt;option value=&quot;Boston&quot;&gt;Boston&lt;/option&gt;
+            &lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+            &lt;option value=&quot;San Diego&quot;&gt;San Diego&lt;/option&gt;
+            &lt;option value=&quot;Mexico City&quot;&gt;Mexico City&lt;/option&gt;
+            &lt;option value=&quot;São Paolo&quot;&gt;São Paolo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;
+        &lt;h2&gt;Choose your destination city:&lt;/h2&gt;
+        &lt;select name=&quot;toPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/option&gt;
+            &lt;option value=&quot;Rome&quot;&gt;Rome&lt;/option&gt;
+            &lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+            &lt;option value=&quot;Berlin&quot;&gt;Berlin&lt;/option&gt;
+            &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+            &lt;option value=&quot;Dublin&quot;&gt;Dublin&lt;/option&gt;
+            &lt;option value=&quot;Cairo&quot;&gt;Cairo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; value=&quot;Find Flights&quot;/&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&#39;Keen&#39;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&#39;head&#39;)[0],s=document.createElement(&#39;script&#39;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&#39;ProdPerfectKeen&#39;,&#39;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&#39;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que su servidor web, servidor de aplicaciones, balanceador de carga, etc. está configurado para aplicar Strict-Transport-Security.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Bajo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://blazedemo.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Falta encabezado X-Content-Type-Options</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://blazedemo.com/index.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La cabecera Anti-MIME-Sniffing X-Content-Type-Options no se ha establecido en &#39;nosniff&#39;. Esto permite que las versiones anteriores de Internet Explorer y Chrome realicen MIME-sniffing en el cuerpo de la respuesta, lo que puede provocar que el cuerpo dé la respuesta se interprete y se muestre como un tipo de contenido distinto del tipo de contenido declarado. Las versiones actuales (principios de 2014) y heredadas de Firefox utilizarán el tipo de contenido declarado (si se establece uno), en lugar de realizar MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Este problema aún se aplica a las páginas de tipo error (401, 403, 500, etc.), ya que esas páginas a menudo se ven afectadas por problemas de inyección, en cuyo caso aún existe la preocupación de que los navegadores husmeen las páginas lejos de su tipo de contenido real.</p>
+
+<p>En el umbral «Alto» esta regla de análisis no alertará sobre respuestas de error del cliente o servidor.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (647 bytes)</summary>
+				
+				<pre><code>GET https://blazedemo.com/index.php HTTP/1.1
+host: blazedemo.com
+Connection: keep-alive
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Linux&quot;
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (283 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+x-cloud-trace-context: b6818a7700f35ece056978fd7476a96c
+date: Thu, 02 Apr 2026 21:40:15 GMT
+server: Google Frontend
+Content-Length: 4474
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4474 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; BlazeDemo&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h1&gt;Welcome to the Simple Travel Agency!&lt;/h1&gt;
+            &lt;p&gt;The is a sample site you can test with BlazeMeter! &lt;/p&gt;
+            &lt;p&gt;Check out our &lt;a href=&quot;vacation.html&quot;&gt;destination of the week! The Beach!&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;Choose your departure city:&lt;/h2&gt;
+    &lt;form action=&quot;reserve.php&quot; method=&quot;post&quot;&gt;
+        &lt;select name=&quot;fromPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+            &lt;option value=&quot;Philadelphia&quot;&gt;Philadelphia&lt;/option&gt;
+            &lt;option value=&quot;Boston&quot;&gt;Boston&lt;/option&gt;
+            &lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+            &lt;option value=&quot;San Diego&quot;&gt;San Diego&lt;/option&gt;
+            &lt;option value=&quot;Mexico City&quot;&gt;Mexico City&lt;/option&gt;
+            &lt;option value=&quot;São Paolo&quot;&gt;São Paolo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;
+        &lt;h2&gt;Choose your destination city:&lt;/h2&gt;
+        &lt;select name=&quot;toPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/option&gt;
+            &lt;option value=&quot;Rome&quot;&gt;Rome&lt;/option&gt;
+            &lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+            &lt;option value=&quot;Berlin&quot;&gt;Berlin&lt;/option&gt;
+            &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+            &lt;option value=&quot;Dublin&quot;&gt;Dublin&lt;/option&gt;
+            &lt;option value=&quot;Cairo&quot;&gt;Cairo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; value=&quot;Find Flights&quot;/&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&#39;Keen&#39;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&#39;head&#39;)[0],s=document.createElement(&#39;script&#39;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&#39;ProdPerfectKeen&#39;,&#39;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&#39;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Asegúrese de que la aplicación/servidor web establece el encabezado Content-Type adecuadamente, y que establece el encabezado X-Content-Type-Options a &#39;nosniff&#39; para todas las páginas web.</p>
+
+<p>Si es posible, asegúrese de que el usuario final utiliza un navegador web moderno y compatible con los estándares que no realiza MIME-sniffing en absoluto, o que puede ser dirigido por la aplicación web/servidor web para que no realice MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Media</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://blazemeter.trackinglibrary.prodperfect.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">Recuperado de la Caché</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses">WSTG-v42-ATHN-06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/525.html">CWE-525</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>El contenido se ha recuperado de una caché compartida. Si los datos de respuesta son sensibles, personales o específicos del usuario, esto puede resultar en la filtración de información sensible. En algunos casos, esto puede incluso resultar en que un usuario obtenga el control completo de la sesión de otro usuario, dependiendo de la configuración de los componentes de caché en uso en su entorno. Este problema se produce principalmente cuando los servidores de caché, como los &quot;proxy&quot;, están configurados en la red local. Esta configuración se encuentra típicamente en entornos corporativos o educativos, por ejemplo.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (604 bytes)</summary>
+				
+				<pre><code>GET https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js HTTP/1.1
+host: blazemeter.trackinglibrary.prodperfect.com
+Connection: keep-alive
+sec-ch-ua-platform: &quot;Linux&quot;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Sec-Fetch-Storage-Access: active
+Referer: https://blazedemo.com/
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (527 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Content-Type: application/javascript
+Content-Length: 1208
+Connection: keep-alive
+Date: Thu, 02 Apr 2026 20:59:19 GMT
+Last-Modified: Tue, 17 Sep 2019 18:12:35 GMT
+ETag: &quot;623a77c5f01f0e9fbf2316e8e42c62c4&quot;
+x-amz-version-id: 8G_0GZpkqTemBaR96zQCPhVSeo4XD1Mm
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 92b04fa1f7fc8cf7b88f8e05368a8846.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EZE50-P7
+X-Amz-Cf-Id: TCgOuN0idHIFafH7s3HQjo7OEnjaGN6OSGhQl6XYOWdrWk8knEFsDA==
+Age: 2458
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1208 bytes)</summary>
+				
+				<pre><code>/*! P2_KEEN_NO_OP_VERSION: 2.0.16 */
+var Keen=function(e){var n={};function r(t){if(n[t])return n[t].exports;var o=n[t]={i:t,l:!1,exports:{}};return e[t].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=n,r.d=function(e,n,t){r.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:t})},r.r=function(e){&quot;undefined&quot;!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:&quot;Module&quot;}),Object.defineProperty(e,&quot;__esModule&quot;,{value:!0})},r.t=function(e,n){if(1&amp;n&amp;&amp;(e=r(e)),8&amp;n)return e;if(4&amp;n&amp;&amp;&quot;object&quot;==typeof e&amp;&amp;e&amp;&amp;e.__esModule)return e;var t=Object.create(null);if(r.r(t),Object.defineProperty(t,&quot;default&quot;,{enumerable:!0,value:e}),2&amp;n&amp;&amp;&quot;string&quot;!=typeof e)for(var o in e)r.d(t,o,function(n){return e[n]}.bind(null,o));return t},r.n=function(e){var n=e&amp;&amp;e.__esModule?function(){return e.default}:function(){return e};return r.d(n,&quot;a&quot;,n),n},r.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},r.p=&quot;&quot;,r(r.s=0)}([function(e,n,r){&quot;use strict&quot;;Object.defineProperty(n,&quot;__esModule&quot;,{value:!0}),n.default=n.KeenTracking=n.Keen=void 0;var t={ready:function(){window.p2_no_op_mode_enabled=!0}},o=t;n.Keen=o;var u=o;n.KeenTracking=u;var i=o;n.default=i}]).default;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Hit from cloudfront</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Válida que la respuesta no contenga información confidencial, personal o específica del usuario. Si es así, considere el uso de los siguientes encabezados de respuesta HTTP para limitar o evitar que otro usuario almacene y recupere el contenido de la memoria caché:</p>
+
+<p>Cache-Control: no-cache, no-store, must-revalidate, private</p>
+
+<p>Pragma: no-cache</p>
+
+<p>Expires: 0</p>
+
+<p>Esta configuración indica a los servidores de almacenamiento en caché compatibles con HTTP 1.0 y HTTP 1.1 que no almacenen la respuesta ni la recuperen (sin validación) de la memoria caché en respuesta a una solicitud similar.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://blazedemo.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Divulgación de información - Comentarios sospechosos</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://blazedemo.com/assets/bootstrap-table.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bBUG\b and was detected 2 times, the first in likely comment: &quot;// fix #61: the hidden table reset header bug.&quot;, see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (527 bytes)</summary>
+				
+				<pre><code>GET https://blazedemo.com/assets/bootstrap-table.js HTTP/1.1
+host: blazedemo.com
+Connection: keep-alive
+sec-ch-ua-platform: &quot;Linux&quot;
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://blazedemo.com/index.php
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (318 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+last-modified: Tue, 30 Aug 2022 14:26:12 GMT
+etag: &quot;9902-5e77629808900&quot;
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: application/javascript
+x-cloud-trace-context: 0184f49d86c2b65963af07f13929f1de
+date: Thu, 02 Apr 2026 21:40:16 GMT
+server: Google Frontend
+Content-Length: 39170
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (39170 bytes)</summary>
+				
+				<pre><code>/**
+ * @author zhixin wen &lt;wenzhixin2010@gmail.com&gt;
+ * version: 1.1.4
+ * https://github.com/wenzhixin/bootstrap-table/
+ */
+
+!function ($) {
+
+    &#39;use strict&#39;;
+
+    // TOOLS DEFINITION
+    // ======================
+
+    // it only does &#39;%s&#39;, and return &#39;&#39; when arguments are undefined
+    var sprintf = function(str) {
+        var args = arguments,
+            flag = true,
+            i = 1;
+
+        str = str.replace(/%s/g, function () {
+            var arg = args[i++];
+
+            if (typeof arg === &#39;undefined&#39;) {
+                flag = false;
+                return &#39;&#39;;
+            }
+            return arg;
+        });
+        if (flag) {
+            return str;
+        }
+        return &#39;&#39;;
+    };
+
+    var getPropertyFromOther = function (list, from, to, value) {
+        var result = &#39;&#39;;
+        $.each(list, function (i, item) {
+            if (item[from] === value) {
+                result = item[to];
+                return false;
+            }
+            return true;
+        });
+        return result;
+    };
+
+    var getScrollbarWidth = function () {
+        var inner = $(&#39;&lt;p/&gt;&#39;).addClass(&#39;fixed-table-scroll-inner&#39;),
+            outer = $(&#39;&lt;div/&gt;&#39;).addClass(&#39;fixed-table-scroll-outer&#39;),
+            w1, w2;
+
+        outer.append(inner);
+        $(&#39;body&#39;).append(outer);
+
+        w1 = inner[0].offsetWidth;
+        outer.css(&#39;overflow&#39;, &#39;scroll&#39;);
+        w2 = inner[0].offsetWidth;
+
+        if (w1 == w2) {
+            w2 = outer[0].clientWidth;
+        }
+
+        outer.remove();
+        return w1 - w2;
+    };
+
+    // BOOTSTRAP TABLE CLASS DEFINITION
+    // ======================
+
+    var BootstrapTable = function (el, options) {
+        this.options = options;
+        this.$el = $(el);
+        this.$el_ = this.$el.clone();
+        this.timeoutId_ = 0;
+
+        this.init();
+    };
+
+    BootstrapTable.DEFAULTS = {
+        classes: &#39;table table-hover&#39;,
+        height: undefined,
+        undefinedText: &#39;-&#39;,
+        sortName: undefined,
+        sortOrder: &#39;asc&#39;,
+        striped: false,
+        columns: [],
+        data: [],
+        method: &#39;get&#39;,
+        url: undefined,
+        contentType: &#39;application/json&#39;,
+        queryParams: function (params) {return {};},
+        queryParamsType: undefined,
+        responseHandler: function (res) {return res;},
+        pagination: false,
+        sidePagination: &#39;client&#39;, // client or server
+        totalRows: 0, // server side need to set
+        pageNumber: 1,
+        pageSize: 10,
+        pageList: [10, 25, 50, 100],
+        search: false,
+        selectItemName: &#39;btSelectItem&#39;,
+        showHeader: true,
+        showColumns: false,
+        minimunCountColumns: 1,
+        idField: undefined,
+        cardView: false,
+        clickToSelect: false,
+        singleSelect: false,
+        toolbar: undefined,
+        checkboxHeader: true,
+
+        rowStyle: function (row, index) {return {};},
+
+        formatLoadingMessage: function () {
+            return &#39;Loading, please wait…&#39;;
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return sprintf(&#39;%s records per page&#39;, pageNumber);
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return sprintf(&#39;Showing %s to %s of %s rows&#39;, pageFrom, pageTo, totalRows);
+        },
+        formatSearch: function () {
+            return &#39;Search&#39;;
+        },
+        formatNoMatches: function () {
+            return &#39;No matching records found&#39;;
+        },
+
+        onAll: function (name, args) {return false;},
+        onClickRow: function (item, $element) {return false;},
+        onDblClickRow: function (item, $element) {return false;},
+        onSort: function (name, order) {return false;},
+        onCheck: function (row) {return false;},
+        onUncheck: function (row) {return false;},
+        onCheckAll: function () {return false;},
+        onUncheckAll: function () {return false;},
+        onLoadSuccess: function (data) {return false;},
+        onLoadError: function (status) {return false;}
+    };
+
+    BootstrapTable.COLUMN_DEFAULTS = {
+        radio: false,
+        checkbox: false,
+        field: undefined,
+        title: undefined,
+        &#39;class&#39;: undefined,
+        align: undefined, // left, right, center
+        valign: undefined, // top, middle, bottom
+        width: undefined,
+        sortable: false,
+        order: &#39;asc&#39;, // asc, desc
+        visible: true,
+        switchable: true,
+        formatter: undefined,
+        events: undefined,
+        sorter: undefined
+    };
+
+    BootstrapTable.EVENTS = {
+        &#39;all.bs.table&#39;: &#39;onAll&#39;,
+        &#39;click-row.bs.table&#39;: &#39;onClickRow&#39;,
+        &#39;dbl-click-row.bs.table&#39;: &#39;onDblClickRow&#39;,
+        &#39;sort.bs.table&#39;: &#39;onSort&#39;,
+        &#39;check.bs.table&#39;: &#39;onCheck&#39;,
+        &#39;uncheck.bs.table&#39;: &#39;onUncheck&#39;,
+        &#39;check-all.bs.table&#39;: &#39;onCheckAll&#39;,
+        &#39;uncheck-all.bs.table&#39;: &#39;onUncheckAll&#39;,
+        &#39;load-success.bs.table&#39;: &#39;onLoadSuccess&#39;,
+        &#39;load-error.bs.table&#39;: &#39;onLoadError&#39;
+    };
+
+    BootstrapTable.prototype.init = function () {
+        this.initContainer();
+        this.initTable();
+        this.initHeader();
+        this.initData();
+        this.initToolbar();
+        this.initPagination();
+        this.initBody();
+        this.initServer();
+    };
+
+    BootstrapTable.prototype.initContainer = function () {
+        this.$container = $([
+            &#39;&lt;div class=&quot;bootstrap-table&quot;&gt;&#39;,
+                &#39;&lt;div class=&quot;fixed-table-toolbar&quot;&gt;&lt;/div&gt;&#39;,
+                &#39;&lt;div class=&quot;fixed-table-container&quot;&gt;&#39;,
+                    &#39;&lt;div class=&quot;fixed-table-header&quot;&gt;&lt;table&gt;&lt;/table&gt;&lt;/div&gt;&#39;,
+                    &#39;&lt;div class=&quot;fixed-table-body&quot;&gt;&#39;,
+                        &#39;&lt;div class=&quot;fixed-table-loading&quot;&gt;&#39;,
+                            this.options.formatLoadingMessage(),
+                        &#39;&lt;/div&gt;&#39;,
+                    &#39;&lt;/div&gt;&#39;,
+                    &#39;&lt;div class=&quot;fixed-table-pagination&quot;&gt;&lt;/div&gt;&#39;,
+                &#39;&lt;/div&gt;&#39;,
+            &#39;&lt;/div&gt;&#39;].join(&#39;&#39;));
+
+        this.$container.insertAfter(this.$el);
+        this.$container.find(&#39;.fixed-table-body&#39;).append(this.$el);
+        this.$container.after(&#39;&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;&#39;);
+        this.$loading = this.$container.find(&#39;.fixed-table-loading&#39;);
+
+        this.$el.addClass(this.options.classes);
+        if (this.options.striped) {
+            this.$el.addClass(&#39;table-striped&#39;);
+        }
+    };
+
+    BootstrapTable.prototype.initTable = function () {
+        var that = this,
+            columns = [],
+            data = [];
+
+        this.$header = this.$el.find(&#39;thead&#39;);
+        if (!this.$header.length) {
+            this.$header = $(&#39;&lt;thead&gt;&lt;/thead&gt;&#39;).appendTo(this.$el);
+        }
+        if (!this.$header.find(&#39;tr&#39;).length) {
+            this.$header.append(&#39;&lt;tr&gt;&lt;/tr&gt;&#39;);
+        }
+        this.$header.find(&#39;th&#39;).each(function () {
+            var column = $.extend({}, {
+                title: $(this).html(),
+                &#39;class&#39;: $(this).attr(&#39;class&#39;)
+            }, $(this).data());
+
+            columns.push(column);
+        });
+        this.options.columns = $.extend({}, columns, this.options.columns);
+        $.each(this.options.columns, function (i, column) {
+            that.options.columns[i] = $.extend({}, BootstrapTable.COLUMN_DEFAULTS, column);
+        });
+
+        // if options.data is setting, do not process tbody data
+        if (this.options.data.length) {
+            return;
+        }
+
+        this.$el.find(&#39;tbody tr&#39;).each(function () {
+            var row = {};
+            $(this).find(&#39;td&#39;).each(function (i) {
+                row[that.options.columns[i].field] = $(this).html();
+            });
+            data.push(row);
+        });
+        this.options.data = data;
+    };
+
+    BootstrapTable.prototype.initHeader = function () {
+        var that = this,
+            visibleColumns = [],
+            html = [];
+
+        this.header = {
+            fields: [],
+            styles: [],
+            formatters: [],
+            events: [],
+            sorters: []
+        };
+        $.each(this.options.columns, function (i, column) {
+            var text = &#39;&#39;,
+                style = sprintf(&#39;text-align: %s; &#39;, column.align) +
+                        sprintf(&#39;vertical-align: %s; &#39;, column.valign),
+                order = that.options.sortOrder || column.order;
+
+            if (!column.visible) {
+                return;
+            }
+
+            visibleColumns.push(column);
+            that.header.fields.push(column.field);
+            that.header.styles.push(style);
+            that.header.formatters.push(column.formatter);
+            that.header.events.push(column.events);
+            that.header.sorters.push(column.sorter);
+
+            style += sprintf(&#39;width: %spx; &#39;, column.checkbox || column.radio ? 36 : column.width);
+            style += column.sortable ? &#39;cursor: pointer; &#39; : &#39;&#39;;
+
+            html.push(&#39;&lt;th&#39;,
+                column.checkbox || column.radio ? &#39; class=&quot;bs-checkbox&quot;&#39; :
+                sprintf(&#39; class=&quot;%s&quot;&#39;, column[&#39;class&#39;]),
+                sprintf(&#39; style=&quot;%s&quot;&#39;, style),
+                &#39;&gt;&#39;);
+            html.push(&#39;&lt;div class=&quot;th-inner&quot;&gt;&#39;);
+
+            text = column.title;
+            if (that.options.sortName === column.field &amp;&amp; column.sortable) {
+                text += that.getCaretHtml();
+            }
+
+            if (column.checkbox) {
+                if (!that.options.singleSelect &amp;&amp; that.options.checkboxHeader) {
+                    text = &#39;&lt;input name=&quot;btSelectAll&quot; type=&quot;checkbox&quot; /&gt;&#39;;
+                }
+                that.header.stateField = column.field;
+            }
+            if (column.radio) {
+                text = &#39;&#39;;
+                that.header.stateField = column.field;
+                that.options.singleSelect = true;
+            }
+
+            html.push(text);
+            html.push(&#39;&lt;/div&gt;&#39;);
+            html.push(&#39;&lt;div class=&quot;fht-cell&quot;&gt;&lt;/div&gt;&#39;);
+            html.push(&#39;&lt;/th&gt;&#39;);
+        });
+
+        this.$header.find(&#39;tr&#39;).html(html.join(&#39;&#39;));
+        this.$header.find(&#39;th&#39;).each(function (i) {
+            $(this).data(visibleColumns[i]);
+
+            if (visibleColumns[i].sortable) {
+                $(this).off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(that.onSort, that));
+            }
+        });
+
+        if (!this.options.showHeader || this.options.cardView) {
+            this.$header.hide();
+            this.$container.find(&#39;.fixed-table-header&#39;).hide();
+            this.$loading.css(&#39;top&#39;, 0);
+        }
+
+        this.$selectAll = this.$header.find(&#39;[name=&quot;btSelectAll&quot;]&#39;);
+        this.$selectAll.off(&#39;click&#39;).on(&#39;click&#39;, function () {
+            var checked = $(this).prop(&#39;checked&#39;);
+            that[checked ? &#39;checkAll&#39; : &#39;uncheckAll&#39;]();
+        });
+    };
+
+    BootstrapTable.prototype.initData = function (data, append) {
+        if (append) {
+            this.data = this.data.concat(data);
+        } else {
+            this.data = data || this.options.data;
+        }
+        this.options.data = this.data;
+
+        this.initSort();
+    };
+
+    BootstrapTable.prototype.initSort = function () {
+        var name = this.options.sortName,
+            order = this.options.sortOrder === &#39;desc&#39; ? -1 : 1,
+            index = $.inArray(this.options.sortName, this.header.fields);
+
+        if (index !== -1) {
+            var sorter = this.header.sorters[index];
+            this.data.sort(function (a, b) {
+                if (typeof sorter === &#39;function&#39;) {
+                    return order * sorter(a[name], b[name]);
+                }
+                if (typeof sorter === &#39;string&#39;) {
+                    return order * eval(sorter + &#39;(a[name], b[name])&#39;); // eval ?
+                }
+
+                if (a[name] === b[name]) {
+                    return 0;
+                }
+                if (a[name] &lt; b[name]) {
+                    return order * -1;
+                }
+                return order;
+            });
+        }
+    };
+
+    BootstrapTable.prototype.onSort = function (event) {
+        var $this = $(event.currentTarget),
+            $this_ = this.$header.find(&#39;th&#39;).eq($this.index());
+
+        this.$header.add(this.$header_).find(&#39;span.order&#39;).remove();
+        this.options.sortName = $this.data(&#39;field&#39;);
+        this.options.sortOrder = $this.data(&#39;order&#39;) === &#39;asc&#39; ? &#39;desc&#39; : &#39;asc&#39;;
+        this.trigger(&#39;sort&#39;, this.options.sortName, this.options.sortOrder);
+
+        $this.add($this_).data(&#39;order&#39;, this.options.sortOrder)
+            .find(&#39;.th-inner&#39;).append(this.getCaretHtml());
+
+        if (this.options.sidePagination === &#39;server&#39;) {
+            this.initServer();
+            return;
+        }
+        this.initSort();
+        this.initBody();
+    };
+
+    BootstrapTable.prototype.initToolbar = function () {
+        var that = this,
+            html = [],
+            timeoutId = 0,
+            $keepOpen,
+            $search;
+
+        this.$toolbar = this.$container.find(&#39;.fixed-table-toolbar&#39;).html(&#39;&#39;);
+
+        if (typeof this.options.toolbar === &#39;string&#39;) {
+            $(&#39;&lt;div class=&quot;bars pull-left&quot;&gt;&lt;/div&gt;&#39;)
+                .appendTo(this.$toolbar)
+                .append($(this.options.toolbar));
+        }
+
+        if (this.options.showColumns) {
+            html = [];
+            html.push(&#39;&lt;div class=&quot;columns pull-right keep-open&quot;&gt;&#39;,
+                &#39;&lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;&#39;,
+                &#39;&lt;i class=&quot;glyphicon glyphicon-th icon-th&quot;&gt;&lt;/i&gt;&#39;,
+                &#39; &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#39;,
+                &#39;&lt;/button&gt;&#39;,
+                &#39;&lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;&#39;);
+
+            $.each(this.options.columns, function (i, column) {
+                if (column.radio || column.checkbox) {
+                    return;
+                }
+                var checked = column.visible ? &#39; checked=&quot;checked&quot;&#39; : &#39;&#39;;
+
+                if (column.switchable) {
+                    html.push(sprintf(&#39;&lt;li&gt;&#39; +
+                        &#39;&lt;label&gt;&lt;input type=&quot;checkbox&quot; value=&quot;%s&quot;%s&gt; %s&lt;/label&gt;&#39; +
+                        &#39;&lt;/li&gt;&#39;, i, checked, column.title));
+                }
+            });
+            html.push(&#39;&lt;/ul&gt;&#39;,
+                &#39;&lt;/div&gt;&#39;);
+
+            this.$toolbar.append(html.join(&#39;&#39;));
+
+            $keepOpen = this.$toolbar.find(&#39;.keep-open&#39;);
+            $keepOpen.find(&#39;li&#39;).off(&#39;click&#39;).on(&#39;click&#39;, function (event) {
+                event.stopImmediatePropagation();
+            });
+            $keepOpen.find(&#39;input&#39;).off(&#39;click&#39;).on(&#39;click&#39;, function () {
+                var $this = $(this),
+                    $items = $keepOpen.find(&#39;input&#39;).prop(&#39;disabled&#39;, false);
+
+                that.options.columns[$this.val()].visible = $this.prop(&#39;checked&#39;);
+                that.initHeader();
+                that.initBody();
+                if ($items.filter(&#39;:checked&#39;).length &lt;= that.options.minimunCountColumns) {
+                    $items.filter(&#39;:checked&#39;).prop(&#39;disabled&#39;, true);
+                }
+            });
+        }
+
+        if (this.options.search) {
+            html = [];
+            html.push(
+                &#39;&lt;div class=&quot;pull-right search&quot;&gt;&#39;,
+                    sprintf(&#39;&lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;%s&quot;&gt;&#39;,
+                        this.options.formatSearch()),
+                &#39;&lt;/div&gt;&#39;);
+
+            this.$toolbar.append(html.join(&#39;&#39;));
+            $search = this.$toolbar.find(&#39;.search input&#39;);
+            $search.off(&#39;keyup&#39;).on(&#39;keyup&#39;, function (event) {
+                clearTimeout(timeoutId); // doesn&#39;t matter if it&#39;s 0
+                timeoutId = setTimeout($.proxy(that.onSearch, that), 500, event); // 500ms
+            });
+        }
+    };
+
+    BootstrapTable.prototype.onSearch = function (event) {
+        var that = this,
+            text = $.trim($(event.currentTarget).val());
+
+        if (text === this.searchText) {
+            return;
+        }
+        this.searchText = text;
+
+        if (this.options.sidePagination !== &#39;server&#39;) {
+            var s = that.searchText.toLowerCase();
+
+            this.data = $.grep(this.options.data, function (item) {
+                for (var key in item) {
+                    if ((typeof item[key] === &#39;string&#39; ||
+                        typeof item[key] === &#39;number&#39;) &amp;&amp;
+                        (item[key] + &#39;&#39;).toLowerCase().indexOf(s) !== -1) {
+                            return true;
+                    }
+                }
+                return false;
+            });
+        }
+        this.options.pageNumber = 1;
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.initPagination = function () {
+        this.$pagination = this.$container.find(&#39;.fixed-table-pagination&#39;);
+
+        if (!this.options.pagination) {
+            return;
+        }
+        var that = this,
+            html = [],
+            i, from, to,
+            $pageList,
+            $first, $pre,
+            $next, $last,
+            $number,
+            data = this.searchText ? this.data : this.options.data;
+
+        if (this.options.sidePagination !== &#39;server&#39;) {
+            this.options.totalRows = data.length;
+        }
+
+        this.totalPages = 0;
+        if (this.options.totalRows) {
+            this.totalPages = ~~((this.options.totalRows - 1) / this.options.pageSize) + 1;
+        }
+        if (this.totalPages &gt; 0 &amp;&amp; this.options.pageNumber &gt; this.totalPages) {
+            this.options.pageNumber = this.totalPages;
+        }
+
+        this.pageFrom = (this.options.pageNumber - 1) * this.options.pageSize + 1;
+        this.pageTo = this.options.pageNumber * this.options.pageSize;
+        if (this.pageTo &gt; this.options.totalRows) {
+            this.pageTo = this.options.totalRows;
+        }
+
+        html.push(
+            &#39;&lt;div class=&quot;pull-left pagination-detail&quot;&gt;&#39;,
+                &#39;&lt;span class=&quot;pagination-info&quot;&gt;&#39;,
+                    this.options.formatShowingRows(this.pageFrom, this.pageTo, this.options.totalRows),
+                &#39;&lt;/span&gt;&#39;);
+
+        html.push(&#39;&lt;span class=&quot;page-list&quot;&gt;&#39;);
+
+        var pageNumber = [
+            &#39;&lt;span class=&quot;btn-group dropup&quot;&gt;&#39;,
+            &#39;&lt;button type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;&#39;,
+            &#39;&lt;span class=&quot;page-size&quot;&gt;&#39;,
+            this.options.pageSize,
+            &#39;&lt;/span&gt;&#39;,
+            &#39; &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#39;,
+            &#39;&lt;/button&gt;&#39;,
+            &#39;&lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;&#39;],
+            pageList = this.options.pageList;
+
+        if (typeof this.options.pageList === &#39;string&#39;) {
+            pageList = eval(this.options.pageList);
+        }
+
+        $.each(pageList, function (i, page) {
+            var active = page === that.options.pageSize ? &#39; class=&quot;active&quot;&#39; : &#39;&#39;;
+            pageNumber.push(sprintf(&#39;&lt;li%s&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;%s&lt;/a&gt;&lt;/li&gt;&#39;, active, page));
+        });
+        pageNumber.push(&#39;&lt;/ul&gt;&lt;/span&gt;&#39;);
+
+        html.push(this.options.formatRecordsPerPage(pageNumber.join(&#39;&#39;)));
+        html.push(&#39;&lt;/span&gt;&#39;);
+
+        html.push(&#39;&lt;/div&gt;&#39;,
+            &#39;&lt;div class=&quot;pull-right&quot;&gt;&#39;,
+                &#39;&lt;ul class=&quot;pagination&quot;&gt;&#39;,
+                    &#39;&lt;li class=&quot;page-first&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;&amp;lt;&amp;lt;&lt;/a&gt;&lt;/li&gt;&#39;,
+                    &#39;&lt;li class=&quot;page-pre&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;&amp;lt;&lt;/a&gt;&lt;/li&gt;&#39;);
+
+        if (this.totalPages &lt; 5) {
+            from = 1;
+            to = this.totalPages;
+        } else {
+            from = this.options.pageNumber - 2;
+            to = from + 4;
+            if (from &lt; 1) {
+                from = 1;
+                to = 5;
+            }
+            if (to &gt; this.totalPages) {
+                to = this.totalPages;
+                from = to - 4;
+            }
+        }
+        for (i = from; i &lt;= to; i++) {
+            html.push(&#39;&lt;li class=&quot;page-number&#39; + (i === this.options.pageNumber ? &#39; active&#39; : &#39;&#39;) + &#39;&quot;&gt;&#39;,
+                &#39;&lt;a href=&quot;javascript:void(0)&quot;&gt;&#39;, i ,&#39;&lt;/a&gt;&#39;,
+                &#39;&lt;/li&gt;&#39;);
+        }
+
+        html.push(
+                    &#39;&lt;li class=&quot;page-next&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;&amp;gt;&lt;/a&gt;&lt;/li&gt;&#39;,
+                    &#39;&lt;li class=&quot;page-last&quot;&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;&amp;gt;&amp;gt;&lt;/a&gt;&lt;/li&gt;&#39;,
+                &#39;&lt;/ul&gt;&#39;,
+            &#39;&lt;/div&gt;&#39;);
+
+        this.$pagination.html(html.join(&#39;&#39;));
+
+        $pageList = this.$pagination.find(&#39;.page-list a&#39;);
+        $first = this.$pagination.find(&#39;.page-first&#39;);
+        $pre = this.$pagination.find(&#39;.page-pre&#39;);
+        $next = this.$pagination.find(&#39;.page-next&#39;);
+        $last = this.$pagination.find(&#39;.page-last&#39;);
+        $number = this.$pagination.find(&#39;.page-number&#39;);
+
+        if (this.options.pageNumber &lt;= 1) {
+            $first.addClass(&#39;disabled&#39;);
+            $pre.addClass(&#39;disabled&#39;);
+        }
+        if (this.options.pageNumber &gt;= this.totalPages) {
+            $next.addClass(&#39;disabled&#39;);
+            $last.addClass(&#39;disabled&#39;);
+        }
+        $pageList.off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(this.onPageListChange, this));
+        $first.off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(this.onPageFirst, this));
+        $pre.off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(this.onPagePre, this));
+        $next.off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(this.onPageNext, this));
+        $last.off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(this.onPageLast, this));
+        $number.off(&#39;click&#39;).on(&#39;click&#39;, $.proxy(this.onPageNumber, this));
+    };
+
+    BootstrapTable.prototype.updatePagination = function () {
+        this.resetRows();
+        this.initPagination();
+        if (this.options.sidePagination === &#39;server&#39;) {
+            this.initServer();
+        } else {
+            this.initBody();
+        }
+    };
+
+    BootstrapTable.prototype.onPageListChange = function (event) {
+        var $this = $(event.currentTarget);
+
+        $this.parent().addClass(&#39;active&#39;).siblings().removeClass(&#39;active&#39;);
+        this.options.pageSize = +$this.text();
+        this.$toolbar.find(&#39;.page-size&#39;).text(this.options.pageSize);
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.onPageFirst = function () {
+        this.options.pageNumber = 1;
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.onPagePre = function () {
+        this.options.pageNumber--;
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.onPageNext = function () {
+        this.options.pageNumber++;
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.onPageLast = function () {
+        this.options.pageNumber = this.totalPages;
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.onPageNumber = function (event) {
+        if (this.options.pageNumber === +$(event.currentTarget).text()) {
+            return;
+        }
+        this.options.pageNumber = +$(event.currentTarget).text();
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.initBody = function () {
+        var that = this,
+            html = [],
+            data = this.searchText ? this.data : this.options.data;
+
+        this.$body = this.$el.find(&#39;tbody&#39;);
+        if (!this.$body.length) {
+            this.$body = $(&#39;&lt;tbody&gt;&lt;/tbody&gt;&#39;).appendTo(this.$el);
+        }
+
+        if (this.options.sidePagination === &#39;server&#39;) {
+            data = this.data;
+        }
+
+        if (!this.options.pagination || this.options.sidePagination === &#39;server&#39;) {
+            this.pageFrom = 1;
+            this.pageTo = data.length;
+        }
+
+        for (var i = this.pageFrom - 1; i &lt; this.pageTo; i++) {
+            var item = data[i],
+                style = {},
+                csses = [];
+
+            if (typeof this.options.rowStyle === &#39;function&#39;) {
+                style = this.options.rowStyle(item, i);
+            } else if (typeof this.options.rowStyle === &#39;string&#39;) {
+                style = eval(this.options.rowStyle + &#39;(item, i)&#39;);
+            }
+
+            if (style &amp;&amp; style.css) {
+                for (var key in style.css) {
+                    csses.push(key + &#39;: &#39; + style.css[key]);
+                }
+            }
+
+            html.push(&#39;&lt;tr&#39;,
+                sprintf(&#39; class=&quot;%s&quot;&#39;, style.classes),
+                sprintf(&#39; data-index=&quot;%s&quot;&#39;, i),
+                &#39;&gt;&#39;
+            );
+
+            if (this.options.cardView) {
+                html.push(sprintf(&#39;&lt;td colspan=&quot;%s&quot;&gt;&#39;, this.header.fields.length));
+            }
+
+            $.each(this.header.fields, function (j, field) {
+                var text = &#39;&#39;,
+                    value = item[field],
+                    type = &#39;&#39;,
+                    style = sprintf(&#39;style=&quot;%s&quot;&#39;, csses.concat(that.header.styles[j]).join(&#39;; &#39;));
+
+                if (typeof that.header.formatters[j] === &#39;function&#39;) {
+                    value = that.header.formatters[j](value, item, i);
+                } else if (typeof that.header.formatters[j] === &#39;string&#39;) {
+                    value = eval(that.header.formatters[j] + &#39;(value, item, i)&#39;); // eval ?
+                }
+
+                if (that.options.columns[j].checkbox || that.options.columns[j].radio) {
+                    type = that.options.columns[j].checkbox ? &#39;checkbox&#39; : type;
+                    type = that.options.columns[j].radio ? &#39;radio&#39; : type;
+
+                    text = [&#39;&lt;td class=&quot;bs-checkbox&quot;&gt;&#39;,
+                        &#39;&lt;input&#39; +
+                            sprintf(&#39; data-index=&quot;%s&quot;&#39;, i) +
+                            sprintf(&#39; name=&quot;%s&quot;&#39;, that.options.selectItemName) +
+                            sprintf(&#39; type=&quot;%s&quot;&#39;, type) +
+                            sprintf(&#39; value=&quot;%s&quot;&#39;, item[that.options.idField]) +
+                            sprintf(&#39; checked=&quot;%s&quot;&#39;, value ? &#39;checked&#39; : undefined) + &#39; /&gt;&#39;,
+                        &#39;&lt;/td&gt;&#39;].join(&#39;&#39;);
+                } else {
+                    value = typeof value === &#39;undefined&#39; ? that.options.undefinedText : value;
+
+                    text = that.options.cardView ?
+                        [&#39;&lt;div class=&quot;card-view&quot;&gt;&#39;,
+                            sprintf(&#39;&lt;span class=&quot;title&quot; %s&gt;%s&lt;/span&gt;&#39;, style,
+                                getPropertyFromOther(that.options.columns, &#39;field&#39;, &#39;title&#39;, field)),
+                            sprintf(&#39;&lt;span class=&quot;value&quot;&gt;%s&lt;/span&gt;&#39;, value),
+                            &#39;&lt;/div&gt;&#39;].join(&#39;&#39;) :
+                        [sprintf(&#39;&lt;td %s&gt;&#39;, style),
+                            value,
+                            &#39;&lt;/td&gt;&#39;].join(&#39;&#39;);
+                }
+
+                html.push(text);
+            });
+
+            if (this.options.cardView) {
+                html.push(&#39;&lt;/td&gt;&#39;);
+            }
+
+            html.push(&#39;&lt;/tr&gt;&#39;);
+        }
+
+        // show no records
+        if (!html.length) {
+            html.push(&#39;&lt;tr class=&quot;no-records-found&quot;&gt;&#39;,
+                sprintf(&#39;&lt;td colspan=&quot;%s&quot;&gt;%s&lt;/td&gt;&#39;, this.header.fields.length, this.options.formatNoMatches()),
+                &#39;&lt;/tr&gt;&#39;);
+        }
+
+        this.$body.html(html.join(&#39;&#39;));
+
+        this.$container.find(&#39;.fixed-table-body&#39;).scrollTop(0);
+
+        this.$body.find(&#39;tr&#39;).off(&#39;click&#39;).on(&#39;click&#39;, function () {
+            that.trigger(&#39;click-row&#39;, that.data[$(this).data(&#39;index&#39;)], $(this));
+            if (that.options.clickToSelect) {
+                $(this).find(sprintf(&#39;[name=&quot;%s&quot;]&#39;, that.options.selectItemName)).trigger(&#39;click&#39;);
+            }
+        });
+        this.$body.find(&#39;tr&#39;).off(&#39;dblclick&#39;).on(&#39;dblclick&#39;, function () {
+            that.trigger(&#39;dbl-click-row&#39;, that.data[$(this).data(&#39;index&#39;)], $(this));
+        });
+
+        this.$selectItem = this.$body.find(sprintf(&#39;[name=&quot;%s&quot;]&#39;, this.options.selectItemName));
+        this.$selectItem.off(&#39;click&#39;).on(&#39;click&#39;, function (event) {
+            event.stopImmediatePropagation();
+            var checkAll = that.$selectItem.length === that.$selectItem.filter(&#39;:checked&#39;).length,
+                checked = $(this).prop(&#39;checked&#39;) || $(this).is(&#39;:radio&#39;),
+                row = that.data[$(this).data(&#39;index&#39;)];
+
+            that.$selectAll.add(that.$selectAll_).prop(&#39;checked&#39;, checkAll);
+            row[that.header.stateField] = checked;
+            that.trigger(checked ? &#39;check&#39; : &#39;uncheck&#39;, row);
+
+            if (that.options.singleSelect) {
+                that.$selectItem.not(this).each(function () {
+                    that.data[$(this).data(&#39;index&#39;)][that.header.stateField] = false;
+                });
+                that.$selectItem.filter(&#39;:checked&#39;).not(this).prop(&#39;checked&#39;, false);
+            }
+
+//            $(this).parents(&#39;tr&#39;)[checked ? &#39;addClass&#39; : &#39;removeClass&#39;](&#39;selected&#39;);
+        });
+
+        $.each(this.header.events, function (i, events) {
+            if (!events) {
+                return;
+            }
+            if (typeof events === &#39;string&#39;) {
+                events = eval(events);
+            }
+            for (var key in events) {
+                that.$body.find(&#39;tr&#39;).each(function () {
+                    var $tr = $(this),
+                        $td = $tr.find(&#39;td&#39;).eq(i),
+                        index = key.indexOf(&#39; &#39;),
+                        name = key.substring(0, index),
+                        el = key.substring(index + 1),
+                        func = events[key];
+
+                    $td.find(el).off(name).on(name, function (e) {
+                        var index = $tr.data(&#39;index&#39;),
+                            row = that.data[index],
+                            value = row[that.header.fields[i]];
+
+                        func(e, value, row, index);
+                    });
+                });
+            }
+        });
+
+        this.resetView();
+    };
+
+    BootstrapTable.prototype.initServer = function () {
+        var that = this,
+            data = {},
+            params = {
+                pageSize: this.options.pageSize,
+                pageNumber: this.options.pageNumber,
+                searchText: this.searchText,
+                sortName: this.options.sortName,
+                sortOrder: this.options.sortOrder
+            };
+
+        if (!this.options.url) {
+            return;
+        }
+        this.$loading.show();
+
+        if (this.options.queryParamsType === &#39;limit&#39;) {
+            params = {
+                limit: params.pageSize,
+                offset: params.pageSize * (params.pageNumber - 1),
+                search: params.searchText,
+                sort: params.sortName,
+                order: params.sortOrder
+            };
+        }
+        if (typeof this.options.queryParams === &#39;function&#39;) {
+            data = this.options.queryParams(params);
+        } else if (typeof this.options.queryParams === &#39;string&#39;) {
+            data = eval(this.options.queryParams + &#39;(params)&#39;);
+        }
+
+        $.ajax({
+            type: this.options.method,
+            url: this.options.url,
+            data: data,
+            contentType: this.options.contentType,
+            dataType: &#39;json&#39;,
+            success: function (res) {
+                if (typeof that.options.responseHandler === &#39;function&#39;) {
+                    res = that.options.responseHandler(res);
+                } else if (typeof that.options.responseHandler === &#39;string&#39;) {
+                    res = eval(that.options.responseHandler + &#39;(res)&#39;);
+                }
+
+                var data = res;
+
+                if (that.options.sidePagination === &#39;server&#39;) {
+                    that.options.totalRows = res.total;
+                    data = res.rows;
+                }
+                that.load(data);
+                that.trigger(&#39;load-success&#39;, data);
+            },
+            error: function (res) {
+                that.trigger(&#39;load-error&#39;, res.status);
+            },
+            complete: function () {
+                that.$loading.hide();
+            }
+        });
+    };
+
+    BootstrapTable.prototype.getCaretHtml = function () {
+        return [&#39;&lt;span class=&quot;order&#39; + (this.options.sortOrder === &#39;desc&#39; ? &#39;&#39; : &#39; dropup&#39;) + &#39;&quot;&gt;&#39;,
+                &#39;&lt;span class=&quot;caret&quot; style=&quot;margin: 10px 5px;&quot;&gt;&lt;/span&gt;&#39;,
+            &#39;&lt;/span&gt;&#39;].join(&#39;&#39;);
+    };
+
+    BootstrapTable.prototype.updateRows = function (checked) {
+        var that = this;
+
+        this.$selectItem.each(function () {
+            that.data[$(this).data(&#39;index&#39;)][that.header.stateField] = checked;
+        });
+    };
+
+    BootstrapTable.prototype.resetRows = function () {
+        var that = this;
+
+        $.each(this.data, function (i, row) {
+            that.$selectAll.prop(&#39;checked&#39;, false);
+            that.$selectItem.prop(&#39;checked&#39;, false);
+            row[that.header.stateField] = false;
+        });
+    };
+
+    BootstrapTable.prototype.trigger = function (name) {
+        var args = Array.prototype.slice.call(arguments, 1);
+
+        name += &#39;.bs.table&#39;;
+        this.options[BootstrapTable.EVENTS[name]].apply(this.options, args);
+        this.$el.trigger($.Event(name), args);
+
+        this.options.onAll(name, args);
+        this.$el.trigger($.Event(&#39;all.bs.table&#39;), [name, args]);
+    };
+
+    BootstrapTable.prototype.resetHeader = function () {
+        var that = this,
+            $fixedHeader = this.$container.find(&#39;.fixed-table-header&#39;),
+            $fixedBody = this.$container.find(&#39;.fixed-table-body&#39;),
+            scrollWidth = this.$el.width() &gt; $fixedBody.width() ? getScrollbarWidth() : 0;
+
+        // fix #61: the hidden table reset header bug.
+        if (this.$el.is(&#39;:hidden&#39;)) {
+            clearTimeout(this.timeoutId_); // doesn&#39;t matter if it&#39;s 0
+            this.timeoutId_ = setTimeout($.proxy(this.resetHeader, this), 100); // 100ms
+            return;
+        }
+
+        this.$header_ = this.$header.clone(true);
+        this.$selectAll_ = this.$header_.find(&#39;[name=&quot;btSelectAll&quot;]&#39;);
+        this.$el.css(&#39;margin-top&#39;, -this.$header.height());
+
+        // fix bug: get $el.css(&#39;width&#39;) error sometime (height = 500)
+        setTimeout(function () {
+            $fixedHeader.css({
+                &#39;height&#39;: &#39;37px&#39;,
+                &#39;border-bottom&#39;: &#39;1px solid #dddddd&#39;,
+                &#39;margin-right&#39;: scrollWidth
+            })
+                .find(&#39;table&#39;).css(&#39;width&#39;, that.$el.css(&#39;width&#39;))
+                .html(&#39;&#39;).attr(&#39;class&#39;, that.$el.attr(&#39;class&#39;))
+                .append(that.$header_);
+
+            that.$body.find(&#39;tr:first-child:not(.no-records-found) &gt; *&#39;).each(function(i) {
+                that.$header_.find(&#39;div.fht-cell&#39;).eq(i).width($(this).innerWidth());
+            });
+
+            // horizontal scroll event
+            $fixedBody.off(&#39;scroll&#39;).on(&#39;scroll&#39;, function () {
+                $fixedHeader.scrollLeft($(this).scrollLeft());
+            });
+        });
+    };
+
+    // PUBLIC FUNCTION DEFINITION
+    // =======================
+
+    BootstrapTable.prototype.resetView = function (params) {
+        var that = this,
+            header = this.header;
+
+        if (params &amp;&amp; params.height) {
+            this.options.height = params.height;
+        }
+
+        this.$selectAll.prop(&#39;checked&#39;, this.$selectItem.length &gt; 0 &amp;&amp;
+            this.$selectItem.length === this.$selectItem.filter(&#39;:checked&#39;).length);
+
+        if (this.options.height) {
+            var toolbarHeight = +this.$toolbar.children().outerHeight(true),
+                paginationHeight = +this.$pagination.children().outerHeight(true),
+                height = this.options.height - toolbarHeight - paginationHeight;
+
+            this.$container.find(&#39;.fixed-table-container&#39;).css(&#39;height&#39;, height + &#39;px&#39;);
+        }
+
+        if (this.options.cardView) {
+            return;
+        }
+
+        if (this.options.showHeader &amp;&amp; this.options.height) {
+            this.resetHeader();
+        }
+
+        if (this.options.height &amp;&amp; this.options.showHeader) {
+            this.$container.find(&#39;.fixed-table-container&#39;).css(&#39;padding-bottom&#39;, &#39;37px&#39;);
+        }
+    };
+
+    BootstrapTable.prototype.load = function (data) {
+        this.initData(data);
+        this.initPagination();
+        this.initBody();
+    };
+
+    BootstrapTable.prototype.append = function (data) {
+        this.initData(data, true);
+        this.initBody();
+    };
+
+    BootstrapTable.prototype.mergeCells = function (options) {
+        var row = options.index,
+            col = $.inArray(options.field, this.header.fields),
+            rowspan = options.rowspan || 1,
+            colspan = options.colspan || 1,
+            i, j,
+            $tr = this.$body.find(&#39;tr&#39;),
+            $td = $tr.eq(row).find(&#39;td&#39;).eq(col);
+
+        if (row &lt; 0 || col &lt; 0 || row &gt;= this.data.length) {
+            return;
+        }
+
+        for (i = row; i &lt; row + rowspan; i++) {
+            for (j = col; j &lt; col + colspan; j++) {
+                $tr.eq(i).find(&#39;td&#39;).eq(j).hide();
+            }
+        }
+
+        $td.attr(&#39;rowspan&#39;, rowspan).attr(&#39;colspan&#39;, colspan).show();
+    };
+
+    BootstrapTable.prototype.getSelections = function () {
+        var that = this;
+
+        return $.grep(this.data, function (row) {
+            return row[that.header.stateField];
+        });
+    };
+
+    BootstrapTable.prototype.checkAll = function () {
+        this.$selectAll.add(this.$selectAll_).prop(&#39;checked&#39;, true);
+        this.$selectItem.prop(&#39;checked&#39;, true);
+        this.updateRows(true);
+        this.trigger(&#39;check-all&#39;);
+    };
+
+    BootstrapTable.prototype.uncheckAll = function () {
+        this.$selectAll.add(this.$selectAll_).prop(&#39;checked&#39;, false);
+        this.$selectItem.prop(&#39;checked&#39;, false);
+        this.updateRows(false);
+        this.trigger(&#39;uncheck-all&#39;);
+    };
+
+    BootstrapTable.prototype.destroy = function () {
+        this.$el.insertBefore(this.$container);
+        $(this.options.toolbar).insertBefore(this.$el);
+        this.$container.next().remove();
+        this.$container.remove();
+        this.$el.html(this.$el_.html())
+            .attr(&#39;class&#39;, this.$el_.attr(&#39;class&#39;) || &#39;&#39;); // reset the class
+    };
+
+    BootstrapTable.prototype.showLoading = function () {
+        this.$loading.show();
+    };
+
+    BootstrapTable.prototype.hideLoading = function () {
+        this.$loading.hide();
+    };
+
+    BootstrapTable.prototype.refresh = function () {
+        this.initServer();
+    };
+
+
+    // BOOTSTRAP TABLE PLUGIN DEFINITION
+    // =======================
+
+    $.fn.bootstrapTable = function (option, _relatedTarget) {
+        var allowedMethods = [
+                &#39;getSelections&#39;,
+                &#39;load&#39;, &#39;append&#39;, &#39;mergeCells&#39;,
+                &#39;checkAll&#39;, &#39;uncheckAll&#39;,
+                &#39;destroy&#39;, &#39;resetView&#39;,
+                &#39;showLoading&#39;, &#39;hideLoading&#39;,
+                &#39;refresh&#39;
+            ],
+            value;
+
+        this.each(function () {
+            var $this = $(this),
+                data = $this.data(&#39;bootstrap.table&#39;),
+                options = $.extend({}, BootstrapTable.DEFAULTS, $this.data(), typeof option === &#39;object&#39; &amp;&amp; option);
+
+            if (!data) {
+                $this.data(&#39;bootstrap.table&#39;, (data = new BootstrapTable(this, options)));
+            }
+
+            if (typeof option === &#39;string&#39;) {
+                if ($.inArray(option, allowedMethods) &lt; 0) {
+                    throw &quot;Unknown method: &quot; + option;
+                }
+                value = data[option](_relatedTarget);
+
+                if (option === &#39;destroy&#39;) {
+                    $this.removeData(&#39;bootstrap.table&#39;);
+                }
+            }
+        });
+
+        return typeof value === &#39;undefined&#39; ? this : value;
+    };
+
+    $.fn.bootstrapTable.Constructor = BootstrapTable;
+    $.fn.bootstrapTable.defaults = BootstrapTable.DEFAULTS;
+    $.fn.bootstrapTable.columnDefaults = BootstrapTable.COLUMN_DEFAULTS;
+
+    // BOOTSTRAP TABLE INIT
+    // =======================
+
+    $(function () {
+        $(&#39;[data-toggle=&quot;table&quot;]&#39;).bootstrapTable();
+    });
+
+}(jQuery);
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code> table reset header bug.</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Eliminar todos los comentarios que muestren información que pueda ayudar a un atacante y solucionar el problema al que se refieren.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Baja</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://blazedemo.com</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Atributo de elemento HTML controlable por el usuario (XSS potencial)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST https://blazedemo.com/reserve.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A03_2021-Injection/">OWASP_2021_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Esta comprobación examina la entrada proporcionada por el usuario en parámetros de cadenas de consulta y datos POST para identificar dónde podrían estar controlados ciertos valores de atributos HTML. Esto proporciona detección de puntos calientes para XSS (cross-site scripting) que requerirán una revisión adicional por parte de un analista de seguridad para determinar la explotabilidad.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Se han encontrado valores de atributos HTML controlados por el usuario. Intente inyectar caracteres especiales para ver si es posible XSS. La página en la siguiente URL parece incluir una entrada de usuario en una etiqueta [input] atributo [value] La entrada de usuario encontrada era:fromPort=Mexico City El valor controlado por el usuario era:mexico city.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (825 bytes)</summary>
+				
+				<pre><code>POST https://blazedemo.com/reserve.php HTTP/1.1
+host: blazedemo.com
+Connection: keep-alive
+Content-Length: 34
+Cache-Control: max-age=0
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Linux&quot;
+Origin: https://blazedemo.com
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://blazedemo.com/index.php
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (34 bytes)</summary>
+				
+				<pre><code>fromPort=Mexico+City&amp;toPort=Berlin</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (283 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+x-cloud-trace-context: f6dacd850c255940a11dff5f891db263
+date: Thu, 02 Apr 2026 21:40:24 GMT
+server: Google Frontend
+Content-Length: 7098
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (7098 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo - reserve&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+    
+        &lt;h3&gt;Flights from Mexico City to Berlin: &lt;/h3&gt;
+    &lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Choose&lt;/th&gt;
+            &lt;th&gt;Flight #&lt;/th&gt;
+            &lt;th&gt;Airline&lt;/th&gt;
+            &lt;th&gt;Departs: Mexico City&lt;/th&gt;
+            &lt;th&gt;Arrives: Berlin&lt;/th&gt;
+            &lt;th&gt;Price&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA43&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;43&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;1:43 AM&lt;/td&gt;
+                &lt;td&gt;9:45 PM&lt;/td&gt;
+                &lt;td&gt;$472.56&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;43&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;472.56&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Mexico City&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;Berlin&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;UA234&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;234&lt;/td&gt;
+                &lt;td&gt;United Airlines&lt;/td&gt;
+                &lt;td&gt;7:43 AM&lt;/td&gt;
+                &lt;td&gt;10:45 PM&lt;/td&gt;
+                &lt;td&gt;$432.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;234&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;432.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;United Airlines&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Mexico City&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;Berlin&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;AL969&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;9696&lt;/td&gt;
+                &lt;td&gt;Aer Lingus&lt;/td&gt;
+                &lt;td&gt;5:27 AM&lt;/td&gt;
+                &lt;td&gt;8:22 PM&lt;/td&gt;
+                &lt;td&gt;$200.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;9696&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;200.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Aer Lingus&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Mexico City&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;Berlin&quot;/&gt;
+            &lt;/form&gt;
+
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA12&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;12&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;11:23 AM&lt;/td&gt;
+                &lt;td&gt;1:45 PM&lt;/td&gt;
+                &lt;td&gt;$765.32&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;12&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;765.32&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Mexico City&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;Berlin&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;L4346&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;4346&lt;/td&gt;
+                &lt;td&gt;Lufthansa&lt;/td&gt;
+                &lt;td&gt;1:45 AM&lt;/td&gt;
+                &lt;td&gt;8:34 PM&lt;/td&gt;
+                &lt;td&gt;$233.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;4346&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;233.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Lufthansa&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Mexico City&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;Berlin&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Mexico City&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;Berlin&quot;/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&#39;Keen&#39;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&#39;head&#39;)[0],s=document.createElement(&#39;script&#39;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&#39;ProdPerfectKeen&#39;,&#39;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&#39;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>fromPort</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Válida la entrada y sanea la salida antes de escribirla en cualquier atributo HTML.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Reexaminar las Directivas de Control de Caché</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://blazedemo.com/index.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses">WSTG-v42-ATHN-06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/525.html">CWE-525</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>La cabecera cache-control no se ha configurado correctamente o falta, lo que permite al navegador y a los proxies almacenar contenido en caché. Para activos estáticos como css, js, o archivos de imagen esto puede ser intencionado, sin embargo, los recursos deben ser revisados para asegurar que ningún contenido sensible será cacheado.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (647 bytes)</summary>
+				
+				<pre><code>GET https://blazedemo.com/index.php HTTP/1.1
+host: blazedemo.com
+Connection: keep-alive
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;146&quot;, &quot;Not-A.Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;146&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Linux&quot;
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Language: es-ES,es;q=0.9
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (283 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+x-cloud-trace-context: b6818a7700f35ece056978fd7476a96c
+date: Thu, 02 Apr 2026 21:40:15 GMT
+server: Google Frontend
+Content-Length: 4474
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4474 bytes)</summary>
+				
+				<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; BlazeDemo&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h1&gt;Welcome to the Simple Travel Agency!&lt;/h1&gt;
+            &lt;p&gt;The is a sample site you can test with BlazeMeter! &lt;/p&gt;
+            &lt;p&gt;Check out our &lt;a href=&quot;vacation.html&quot;&gt;destination of the week! The Beach!&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;Choose your departure city:&lt;/h2&gt;
+    &lt;form action=&quot;reserve.php&quot; method=&quot;post&quot;&gt;
+        &lt;select name=&quot;fromPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+            &lt;option value=&quot;Philadelphia&quot;&gt;Philadelphia&lt;/option&gt;
+            &lt;option value=&quot;Boston&quot;&gt;Boston&lt;/option&gt;
+            &lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+            &lt;option value=&quot;San Diego&quot;&gt;San Diego&lt;/option&gt;
+            &lt;option value=&quot;Mexico City&quot;&gt;Mexico City&lt;/option&gt;
+            &lt;option value=&quot;São Paolo&quot;&gt;São Paolo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;
+        &lt;h2&gt;Choose your destination city:&lt;/h2&gt;
+        &lt;select name=&quot;toPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/option&gt;
+            &lt;option value=&quot;Rome&quot;&gt;Rome&lt;/option&gt;
+            &lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+            &lt;option value=&quot;Berlin&quot;&gt;Berlin&lt;/option&gt;
+            &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+            &lt;option value=&quot;Dublin&quot;&gt;Dublin&lt;/option&gt;
+            &lt;option value=&quot;Cairo&quot;&gt;Cairo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; value=&quot;Find Flights&quot;/&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&#39;Keen&#39;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&#39;head&#39;)[0],s=document.createElement(&#39;script&#39;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&#39;ProdPerfectKeen&#39;,&#39;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&#39;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>cache-control</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>no-cache, private</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Para contenido seguro, asegúrese de que la cabecera HTTP cache-control está configurada con «no-cache, no-store, must-revalidate». Si un activo debe almacenarse en caché, considere establecer las directivas «public, max-age, immutable».</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert Types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>El servidor filtra información de versión a través del campo &quot;Server&quot; del encabezado de respuesta HTTP</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10036/">Cabecera de Respuesta del Servidor HTTP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://httpd.apache.org/docs/current/mod/core.html#servertokens">https://httpd.apache.org/docs/current/mod/core.html#servertokens</a></li>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)">https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)</a></li>
+										<li><a
+											href="https://www.troyhunt.com/shhh-dont-let-your-response-headers/">https://www.troyhunt.com/shhh-dont-let-your-response-headers/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Falta encabezado X-Content-Type-Options</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">Falta encabezado X-Content-Type-Options</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Strict-Transport-Security Header No Establecido</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10035/">Strict-Transport-Security Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/319.html">319</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+										<li><a
+											href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</a></li>
+										<li><a
+											href="https://caniuse.com/stricttransportsecurity">https://caniuse.com/stricttransportsecurity</a></li>
+										<li><a
+											href="https://datatracker.ietf.org/doc/html/rfc6797">https://datatracker.ietf.org/doc/html/rfc6797</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Atributo de elemento HTML controlable por el usuario (XSS potencial)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10031/">Atributo de elemento HTML controlable por el usuario (XSS potencial)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/20.html">20</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>20</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Divulgación de información - Comentarios sospechosos</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10027/">Divulgación de información - Comentarios sospechosos</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>Recuperado de la Caché</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10050/">Recuperado de la Caché</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/525.html">525</a></td>
+							</tr>
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://datatracker.ietf.org/doc/html/rfc7234">https://datatracker.ietf.org/doc/html/rfc7234</a></li>
+										<li><a
+											href="https://datatracker.ietf.org/doc/html/rfc7231">https://datatracker.ietf.org/doc/html/rfc7231</a></li>
+										<li><a
+											href="https://www.rfc-editor.org/rfc/rfc9110.html">https://www.rfc-editor.org/rfc/rfc9110.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Reexaminar las Directivas de Control de Caché</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10015/">Reexaminar las Directivas de Control de Caché</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/525.html">525</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching">https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</a></li>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control">https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</a></li>
+										<li><a
+											href="https://grayduck.mn/2021/09/13/cache-control-recommendations/">https://grayduck.mn/2021/09/13/cache-control-recommendations/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
