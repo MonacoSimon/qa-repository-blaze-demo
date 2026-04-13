@@ -1,0 +1,360 @@
+{
+  "info": {
+    "_postman_id": "737adeda-40fa-4040-a32a-c9bacf408ca2",
+    "name": "pruebas blazeDemo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53286456",
+    "_collection_link": "https://go.postman.co/collection/53286456-737adeda-40fa-4040-a32a-c9bacf408ca2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "request-reserva",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Es HTML\", function () {",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+              "        .to.include(\"text/html\");",
+              "});",
+              "",
+              "pm.test(\"Status 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/reserve.php",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "reserve.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "index-request",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Es HTML\", function () {",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+              "        .to.include(\"text/html\");",
+              "});",
+              "",
+              "pm.test(\"Status 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "",
+              "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+              "    pm.expect(pm.response.responseTime).to.be.below(2000);",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}",
+          "host": [
+            "{{baseUrl}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "request-destino-semana",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Es HTML\", function () {",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+              "        .to.include(\"text/html\");",
+              "});",
+              "",
+              "pm.test(\"Status 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "url": {
+          "raw": "{{baseUrl}}acation.html",
+          "host": [
+            "{{baseUrl}}acation",
+            "html"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "formulario-vuelo",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Validación negativa completa\", function () {",
+              "    pm.expect(pm.response.code).to.not.equal(200);",
+              "    pm.expect(pm.response.text()).to.not.include(\"Thank you\");",
+              "});",
+              "",
+              "pm.test(\"verficar validacion de campos\", function(){",
+              "    pm.expect()",
+              "})"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "inputName",
+              "value": "simon",
+              "type": "text",
+              "uuid": "34aa75f2-2cca-46b6-bd1b-7776318e068b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/purchase.php",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "purchase.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "purchase",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Es HTML\", function () {",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+              "        .to.include(\"text/html\");",
+              "});",
+              "",
+              "pm.test(\"Status 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}confirmation.php",
+          "host": [
+            "{{baseUrl}}confirmation",
+            "php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get-login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"probar disponibilidad\", function(){",
+              "    pm.response.to.have.status(200);",
+              "",
+              "})",
+              "",
+              "pm.test(\"Es HTML\", function () {",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+              "        .to.include(\"text/html\");",
+              "});",
+              "",
+              "pm.test(\"Contiene formulario de reset\", function () {",
+              "    pm.expect(pm.response.text()).to.include(\"password\");",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "1234@1234.com",
+              "type": "text",
+              "uuid": "458040c3-f5be-4cd1-a51c-5ea7a36e1178"
+            },
+            {
+              "key": "password",
+              "value": "1233",
+              "type": "text",
+              "uuid": "3e760818-e04b-42ba-af8c-9cbb1573e5a8"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}}/login",
+          "host": [
+            "{{baseUrl}}}"
+          ],
+          "path": [
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "recuperacion-contraseña",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "pm.test(\"Es HTML\", function () {",
+              "    pm.expect(pm.response.headers.get(\"Content-Type\"))",
+              "        .to.include(\"text/html\");",
+              "});",
+              "",
+              "pm.test(\"Contiene formulario de reset\", function () {",
+              "    pm.expect(pm.response.text()).to.include(\"password\");",
+              "});",
+              "",
+              "pm.test(\"Tiempo de respuesta aceptable\", function () {",
+              "    pm.expect(pm.response.responseTime).to.be.below(2000);",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "1234@1234.com",
+              "type": "text",
+              "uuid": "645febbe-52e7-42b3-82a0-15f408495c09"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/password/reset",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "password",
+            "reset"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
