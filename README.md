@@ -6,6 +6,8 @@ El objetivo es simular un flujo de trabajo real de QA, incluyendo diseño de cas
 
 ---
 
+[Enlace de la pagina](https://blazedemo.com/)
+
 ## Alcance de pruebas
 
 Se realizaron los siguientes tipos de testing:
