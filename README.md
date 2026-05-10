@@ -187,3 +187,64 @@ Para ejecutar las pruebas de API con Postman:
 1. Importar la colección desde `/api-testing/postman/collections/`
 2. Importar el environment desde `/api-testing/postman/environments/`
 3. Ejecutar los requests o la colección desde Postman
+
+# Setup del Entorno
+
+El proyecto incluye un script `set-up.sh` para verificar automáticamente las dependencias necesarias antes de ejecutar las pruebas QA.
+
+El script valida:
+
+- Node.js
+- npm
+- Java
+- Newman
+- Lighthouse
+- Dependencias de Cypress
+- Directorios necesarios del proyecto
+
+Además, instala automáticamente las dependencias de Cypress si no existen.
+
+---
+
+# Dar Permisos al Script
+
+Antes de ejecutarlo debe asignarse permiso de ejecución:
+
+```bash
+chmod +x set-up.sh
+```
+
+---
+
+# Ejecutar el Script
+
+```bash
+./set-up.sh
+```
+
+---
+
+# Resultado Esperado
+
+El script mostrará el estado de cada herramienta requerida y verificará que el entorno esté listo para ejecutar las pruebas.
+
+Ejemplo:
+
+```text
+Node.js encontrado
+npm encontrado
+Java encontrado
+Validación finalizada
+```
+
+---
+
+# Objetivo
+
+El objetivo del setup es simplificar la preparación del entorno y detectar dependencias faltantes antes de ejecutar:
+
+- pruebas automatizadas
+- pruebas API
+- pruebas de performance
+- análisis de seguridad
+- pruebas de accesibilidad
